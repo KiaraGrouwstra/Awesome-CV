@@ -1,12 +1,18 @@
+/examples/build
+
 ### TeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
+*.bbl
+*.blg
+*.fdb_latexmk
 *.lof
 *.log
 *.lot
 *.fls
 *.out
 *.toc
+*.pdf
 
 ## Intermediate documents:
 *.dvi
