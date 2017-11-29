@@ -1,0 +1,87 @@
+% lang=nl; xelatex -jobname=motivatiebrief-tycho -output-directory="build" "\newif\ifen\newif\ifnl\\${lang}true \input{coverletter-uva}"
+\documentclass[11pt, a4paper]{awesome-cv}
+    \usepackage[none]{hyphenat}
+    \usepackage{csquotes}
+    \usepackage[english,dutch]{babel}
+    \newcommand{\langen}[1]{\ifen#1\fi}
+    \newcommand{\langnl}[1]{\ifnl#1\fi}
+    % \langen{}\langnl{}
+    \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+    \fontdir[fonts/]
+    \colorlet{awesome}{awesome-red}
+    \setbool{acvSectionColorHighlight}{true}
+    \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+    
+    \photo[circle,noedge,left]{profile.jpg}
+    \name{Tycho}{Grouwstra}
+    \def\roletitle{}
+    \position{Software Engineer + Data Scientist}
+    \address{Maria van der Duinstraat 8, 3176 VC, Poortugaal, Zuid-Holland\langen{, the Netherlands}}
+    
+    \mobile{(+31) 685-627-442}
+    \email{tychog01@gmail.com}
+    \github{tycho01}
+    \linkedin{tycho01}
+    \skype{tychog}
+
+    \recipient
+      {}
+      {}
+    \letterdate{\today}
+    \lettertitle{\langen{Cover Letter Application for}\langnl{Motivatie aanmelding voor} UvA Master Artificial Intelligence}
+    \letteropening{\newline\langen{Dear}\langnl{Beste} dr. Maarten van Someren,\newline}
+    \letterclosing{%
+      \langen{Sincerely}%
+      \langnl{Met vriendelijke groet}%
+    ,\newline}
+    % \letterenclosure[\langen{Attached}\langnl{Bijgevoegd}]{Curriculum Vitae}    
+    \begin{document}
+    \langen{\selectlanguage{english}}
+    \langnl{\selectlanguage{dutch}}
+    \makecvheader[R]
+    \makecvfooter
+      {\today}
+      {Tycho Grouwstra~~~·~~~\langen{Cover Letter}\langnl{Motivatiebrief}}
+      {}
+    \makelettertitle
+    
+    %-------------------------------------------------------------------------------
+    %	LETTER CONTENT
+    %-------------------------------------------------------------------------------
+    \begin{cvletter}
+    
+    Ik zou hierbij graag mijn aanmelding verder toe te lichten.
+    Ik ben inmiddels al enkele jaren afgestudeerd, waardoor mijn achtergrond wellicht wat verschilt van die van de meeste studenten.
+    Het kan hierdoor dat mijn aanmelding in eerste instantie merkwaardig lijkt.
+    \newline\newline
+    Voor de eisen van de opleiding staat namelijk een bachelor in AI / computer science, welke ik nooit afgemaakt heb.
+    Echter denk ik inmiddels vergelijkbaar voorbereid te zijn als de bachelor studenten informatica.
+    \newline\newline
+    Ik was op mijn 16de technische informatica gaan studeren bij TU Delft, maar was na mijn propedeuse geswitcht,
+    en heb toen wat minder aanverwante studies gedaan (bachelor Japans, master business administration).
+    \newline\newline
+    In mijn jaren werkervaring sindsdien ben ik echter weer bij de informatica gebleven,
+    met verscheidene contributies in open-source software (inclusief aan de TypeScript compiler),
+    en informeel wat zelfstudie richting machine learning o.b.v. o.a. de online course van Andrew Ng.
+    \newline\newline
+    % De wiskunde basis heb ik in ieder geval gelegd bij mijn studie,
+    % al ben ik blij dat jullie de prerequisite knowledge op een rijtje hebben gezet.
+    % Ik zal deze sowieso weer ophalen, maar heb er ook geen bezwaar bij als jullie me vragen deze kennis alsnog via de pre-Master aan te tonen.
+    Ik plan de prerequisite knowledge die jullie voor de studie opgesteld hebben weer op te halen,
+    maar heb er ook geen bezwaar tegen om dit via het pre-Master programma te formaliseren.
+    \newline\newline
+    % Voor wat het waard is, ben ik
+    Ik ben een relatief zelfstandige student:
+    in plaats van op cijfers te concentreren heb ik via zelfstudie twee jaar
+    'overgeslagen', één eind middelbare school, later weer bij Japans.
+    Ook realiseer ik me dat ik om nu weer te studeren hier de statutory tuition voor over zal moeten hebben.
+    Aan motivatie ontbreekt het mij dus zeker niet.
+    \newline\newline
+    Ik hoop dat jullie mijn aanmelding in overweging zullen nemen,
+    en ben graag bereid verdere uitleg te geven, zij het digitaal danwel in persone.
+    U vindt mijn cv hier bijgevoegd.
+    
+    \end{cvletter}
+    \makeletterclosing
+    \end{document}
+    
