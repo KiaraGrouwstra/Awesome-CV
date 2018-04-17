@@ -1,0 +1,26 @@
+Beste ...,
+
+Ik zag deze vacature online, en denk dat ik er een goede match voor ben.
+
+Waarom ...?
+
+Ik zie in ... een bedrijf waar ik een impact kan maken, met een breed spectrum aan uitdagingen. Ik denk daarmee dat julllie redelijk goed overeen komt met waar ik zelf naar zoek; een open werk-cultuur, en voldoende mogelijkheden om als individu te kunnen blijven verbreden, met andere collega’s ideeën uit te wisselen en elkaar te versterken.
+
+Waarom ik?
+
+Ik ben een leergierige ICT’er met ervaring in business intelligence, big data, front-end engineering, functional programming, compilers, en machine learning. Ik ben tevens actief in de open-source community (Github), en probeer in m’n vrije tijd verder te leren over het bouwen van neural networks.
+
+Over de jaren heb ik verder ervaring opgedaan met verscheidene databases, waaronder relationeel (postgres, sql server, mysql, etc.), noSQL, en graph, evenals bijbehorende concepten (star schemas, Kimball, MDX/pivots). Het was tevens o.b.v. SQL dat ik een analyze had gedaan van de fonetieke logica van Chinese karakters. Maar ik wil zelf nog eens een compiler maken om DAX, query taal uit MS Power BI, naar SQL te compileren voor cross-table pivots in big data settings (b.v. Spark) of op GPU dbs.
+
+Ik was met Excel begonnen om er beter in te worden dan mijn vader. Sindsdien heb ik ermee het online monitoring programma van de overheid van Singapore opgezet, evenals social media marketing analyses voor multi-nationals in Shanghai. Voor MS Power BI heb ik de eerste functie library geschreven; van PowerPivot heb ik 1-op-1 geleerd van Microsoft’s product manager.
+
+Ik heb verder enkele jaren ervaring opgebouwd als front-end engineer met een focus op Angular. Hier heb ik bijgedragen aan Pug integratie, een library voor point-free JS, de eerste type library in TypeScript, functie toolkit Ramda.js (typings herschreven), evenals een stel pull requests aan de TypeScript compiler om type inference te versterken.
+
+Ik heb verder ervaring met Python (data analyse o.b.v. Pandas, Scipy, Bokeh; web scraping o.b.v. Scrapy; ML o.b.v. ScikitLearn, PyTorch, TensorFlow), Scala (big data processing o.b.v. Spark/Kafka), R (stock scraping + sentiment analysis, ETL van adem-spectra voor classificatie), machine learning (supervised, unsupervised, reinforcement learning), Ruby/PHP (web), Matlab, en Haskell.
+
+Ik denk dat ik een redelijk goede match zou zijn o.b.v. de functie omschrijving, en zou graag met jullie verder praten.
+
+Met vriendelijke groet,
+
+Tycho Grouwstra
+

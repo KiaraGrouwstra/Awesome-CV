@@ -100,12 +100,18 @@
 % The title of the letter
 \lettertitle{\langen{Job Application for}\langnl{Sollicitatie voor positie} \jobtitle}
 % How the letter is opened
-\letteropening{\newline\langen{Dear}\langnl{Beste} \recruiter,\newline\newline\langen{I just saw your job ad, and thought I might make for a good match.}\langnl{Ik zag deze vacature online, en denk dat ik er een goede match voor ben.}}
+\letteropening{\newline\langen{Dear}\langnl{Beste} \recruiter,\newline\newline\langen{%
+I just saw your job ad, and thought I might make for a good match.
+% Shelli Gafan had referred me to your vacancy for \jobtitle, and I thought I might make for a good match.
+}\langnl{%
+Ik zag deze vacature online, en denk dat ik er een goede match voor ben.
+% Shelli Gafan had me verwezen naar jullie vacature voor \jobtitle, en ik denk dat ik er een goede match voor ben.
+}}
 % How the letter is closed
 \letterclosing{%
   \langen{I believe I'm a fairly good fit going by the job description, and would be happy to talk.\newline\newline Sincerely}%
   \langnl{Ik denk dat ik een redelijk goede match zou zijn o.b.v. de functie omschrijving, en zou graag met jullie verder praten.\newline\newline Met vriendelijke groet}%
-,}
+,}%\newline
 % Any enclosures with the letter
 % \letterenclosure[\langen{Attached}\langnl{Bijgevoegd}]{Curriculum Vitae}
 
